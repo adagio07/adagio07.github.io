@@ -198,6 +198,7 @@ nav ul li a span {
     width: 100%;
     background-color: #fefef5;
     margin: 0 auto;
+    padding-top: 30px;
     height: 320px;
     text-align: center;
 }
@@ -244,7 +245,7 @@ nav ul li a span {
 
 .about_sns ul li{
     display:inline-block;
-    padding:40px 10px;
+    padding:40px 30px;
 }
 
 
@@ -318,6 +319,67 @@ nav ul li a span {
     color: #999;
     letter-spacing: 0px;
 }
+
+
+
+
+
+
+
+
+.pic {
+    width: 100%;
+    background-color: #cecfcc;
+    margin: 0 auto;
+    height: 550px;
+    text-align: center;
+}
+
+
+.pic h1 {
+    letter-spacing: 10px;
+    font-size: 0.5em;
+    color: #848484;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.container {
+    margin:0 auto;
+    width: 800px;
+}
+
+
+.container_image {
+    position:relative;
+    display:inline-block;
+    width: 350px;
+    background-color: #fefef5;
+    margin: 20px;
+    text-align: center;
+}
+
+
+.container_image h1{
+    font-size: 18px;
+    text-align: left;
+    padding: 15px 15px 5px 15px;
+    background-color: white;
+    color: #999;
+    letter-spacing: 0px;
+}
+
+
+.container_image h2{
+    font-size: 8px;
+    text-align: left;
+    padding: 5px 15px 15px 15px;
+    background-color: white;
+    color: #999;
+    letter-spacing: 0px;
+}
+
 
 
 
