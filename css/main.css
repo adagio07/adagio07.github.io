@@ -136,7 +136,7 @@ a {
 }
 
 .container {
-    max-width: 960px;
+    max-width: 980px;
     margin: 0 auto;
 }
 
@@ -158,12 +158,13 @@ header {
     text-align: center;
 }
 
-
-header h1 { float:left;
+header h1 {
+    float: left;
     letter-spacing: 4px;
     font-family: 'Oswald', sans-serif;
     margin: 25px 40px;
-    font-size: 16px;}
+    font-size: 16px;
+}
 
 nav {
     margin: 0 auto;
@@ -199,7 +200,7 @@ nav ul li a span {
     background-color: #fefef5;
     margin: 0 auto;
     padding-top: 30px;
-    height: 320px;
+    height: 400px;
     text-align: center;
 }
 
@@ -223,37 +224,110 @@ nav ul li a span {
     width: 100%;
     background-color: #2d3035;
     margin: 0 auto;
-    height: 400px;
+    height: 500px;
     text-align: center;
 }
 
 .about h1 {
-    letter-spacing: 10px;
-    font-size: 0.5em;
-    color: #9fccce;
+    letter-spacing: 2px;
+    font-size: 0.8em;
+    color: #71d9dd;
     padding-top: 20px;
 
 }
 
 .about h2 {
-    letter-spacing: 10px;
-    font-size: 20px;
-    color: #000;
-    padding-top: 0px;
-    font-weight: 800;
+    letter-spacing: 5px;
+    font-size: 0.4em;
+    color: #71d9dd;
+    padding-top: 5px;
+
 }
 
-.about_sns ul li{
-    display:inline-block;
-    padding:40px 30px;
+.about_sns ul li {
+    display: inline-block;
+    padding: 20px 60px;
 }
+
+
+.about_sns ul li a.facebook{
+    display: block;
+    width: 55px;
+    height: 53px;
+    text-decoration: none;
+    text-indent: -9999em;
+    background: url("http://lemon2020.cafe24.com/img/facebook.png");
+    background-size: 55px 53px;
+    transition:color 0.4s ease-out, background 0.4s ease-in;
+
+}
+
+.about_sns ul li a.facebook:hover{
+    background: url("http://lemon2020.cafe24.com/img/facebook_hover.png");
+    background-size: 55px 53px;
+}
+
+
+.about_sns ul li a.tumblr{
+    display: block;
+    width: 55px;
+    height: 53px;
+    text-decoration: none;
+    text-indent: -9999em;
+    background: url("http://lemon2020.cafe24.com/img/tumblr.png");
+    background-size: 55px 53px;
+    transition:color 0.3s ease-out, background 0.3s ease-in;
+
+}
+
+.about_sns ul li a.tumblr:hover{
+    background: url("http://lemon2020.cafe24.com/img/tumblr_hover.png");
+    background-size: 55px 53px;
+}
+
+
+.about_sns ul li a.instagram{
+    display: block;
+    width: 55px;
+    height: 53px;
+    text-decoration: none;
+    text-indent: -9999em;
+    background: url("http://lemon2020.cafe24.com/img/insta.png");
+    background-size: 55px 53px;
+    transition:color 0.3s ease-out, background 0.3s ease-in;
+
+}
+
+.about_sns ul li a.instagram:hover{
+    background: url("http://lemon2020.cafe24.com/img/insta_hover.png");
+    background-size: 55px 53px;
+}
+
+.about_sns ul li a.behance{
+    display: block;
+    width: 55px;
+    height: 53px;
+    text-decoration: none;
+    text-indent: -9999em;
+    background: url("http://lemon2020.cafe24.com/img/behance.png");
+    background-size: 55px 53px;
+    transition:color 0.3s ease-out, background 0.3s ease-in;
+
+}
+
+.about_sns ul li a.behance:hover{
+    background: url("http://lemon2020.cafe24.com/img/behance_hover.png");
+    background-size: 55px 53px;
+}
+
+
 
 
 
 .about_contents {
     margin: 30px auto;
     width: 560px;
-    border: 5px solid #9fccce;
+    border: 5px solid #71d9dd;
     padding: 20px;
     letter-spacing: 0px;
     font-size: 9px;
@@ -263,16 +337,13 @@ nav ul li a span {
     font-weight: 800;
 }
 
-
-
 .work {
     width: 100%;
     background-color: #e5e5e5;
     margin: 0 auto;
-    height: 700px;
+    height: 750px;
     text-align: center;
 }
-
 
 .work h1 {
     letter-spacing: 10px;
@@ -282,50 +353,37 @@ nav ul li a span {
     padding-bottom: 20px;
 }
 
-
 .container {
-    margin:0 auto;
-    width: 800px;
+    margin: 0 auto;
+    height: 670px;
 }
 
-
 .container_image {
-     position:relative;
-     display:inline-block;
+    position: relative;
+    display: inline-block;
+    background-color: #fefef5;
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+}
 
-     width: 350px;
-     background-color: #fefef5;
-     margin: 20px;
-
-     text-align: center;
- }
-
-
-.container_image h1{
+.container_image h1 {
     font-size: 18px;
     text-align: left;
-     padding: 10px;
-     background-color: white;
-     color: #999;
-     letter-spacing: 0px;
- }
+    padding: 15px 15px 5px 15px;
+    background-color: white;
+    color: #474747;
+    letter-spacing: 0px;
+}
 
-
-.container_image h2{
+.container_image h2 {
     font-size: 8px;
     text-align: left;
-    padding: 10px;
+    padding: 5px 15px 15px 15px;
     background-color: white;
     color: #999;
     letter-spacing: 0px;
 }
-
-
-
-
-
-
-
 
 .pic {
     width: 100%;
@@ -335,7 +393,6 @@ nav ul li a span {
     text-align: center;
 }
 
-
 .pic h1 {
     letter-spacing: 10px;
     font-size: 0.5em;
@@ -344,24 +401,20 @@ nav ul li a span {
     padding-bottom: 20px;
 }
 
-
 .container {
-    margin:0 auto;
-    width: 800px;
+    margin: 0 auto;
 }
 
-
-.container_image {
-    position:relative;
-    display:inline-block;
+.container_image_02 {
+    position: relative;
+    display: inline-block;
     width: 350px;
     background-color: #fefef5;
     margin: 20px;
     text-align: center;
 }
 
-
-.container_image h1{
+.container_image_02 h1 {
     font-size: 18px;
     text-align: left;
     padding: 15px 15px 5px 15px;
@@ -370,8 +423,7 @@ nav ul li a span {
     letter-spacing: 0px;
 }
 
-
-.container_image h2{
+.container_image_02 h2 {
     font-size: 8px;
     text-align: left;
     padding: 5px 15px 15px 15px;
@@ -379,10 +431,6 @@ nav ul li a span {
     color: #999;
     letter-spacing: 0px;
 }
-
-
-
-
 
 /* ==========================================================================
    Helper classes
