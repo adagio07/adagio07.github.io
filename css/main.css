@@ -321,9 +321,6 @@ nav ul li a span {
 }
 
 
-
-
-
 .about_contents {
     margin: 30px auto;
     width: 560px;
@@ -367,6 +364,17 @@ nav ul li a span {
     text-align: center;
 }
 
+
+
+
+
+
+
+
+
+
+
+
 .container_image h1 {
     font-size: 18px;
     text-align: left;
@@ -384,6 +392,64 @@ nav ul li a span {
     color: #999;
     letter-spacing: 0px;
 }
+
+
+
+
+
+
+
+.rollover{-webkit-transition:all .25s ease-out;
+    -moz-transition:all .25s ease-out;
+    -o-transition:all .25s ease-out;
+    transition:all .25s ease-out}
+
+.rollover img{-webkit-transition:all .25s linear;
+    -moz-transition:all .25s linear;
+    -o-transition:all .25s linear;
+    transition:all .25s linear;
+    -webkit-transform:translateZ(0);
+    -moz-transform:translateZ(0);
+    -ms-transform:translateZ(0);
+    transform:translateZ(0);
+}
+
+.rollover .bt-url{display:block;position:absolute
+;top:20%;left:35%;width:68px;height:68px;
+    argin:-21px 0 0 -21px;
+    border:2px solid rgba(255,255,255,0.75);
+    border-radius:50%;text-indent:-23em;
+    overflow:hidden}
+
+.rollover .bt-url:before{content:'\e819';
+    display:block;width:58px;height:58px;
+    text-align:center;
+    font-family:'Oswald';font-size:18px;font-weight:normal;
+    font-variant:normal;text-indent:0;text-decoration:inherit;
+   color:rgba(255,255,255,0.75);
+    -webkit-transition:all .25s ease-out;
+    -moz-transition:all .25s ease-out;
+    -ms-transition:all .25s ease-out;
+    transition:all .25s ease-out}
+
+.rollover .bt-url:hover{border-color:#fff}
+
+.rollover .bt-url:hover:before{color:#fff}
+
+.rollover:hover{background:#000}
+.rollover:hover img{opacity:.6}
+
+.rollover.site .bt-url{visibility:hidden;opacity:0;
+    -webkit-transition:all .25s ease-out;
+    -moz-transition:all .25s ease-out;
+    -o-transition:all .25s ease-out;transition:all .25s ease-out}
+
+.rollover.site:hover .bt-url{visibility:visible;opacity:1}
+.list-item li .list-tags{clear:both;height:23px;max-height:75
+
+
+
+
 
 .pic {
     width: 100%;
