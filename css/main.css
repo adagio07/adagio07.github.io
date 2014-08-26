@@ -136,7 +136,7 @@ a {
 }
 
 .container {
-    max-width: 980px;
+    max-width: 1150px;
     margin: 0 auto;
 }
 
@@ -152,7 +152,7 @@ div {
 }
 
 header {
-    height: 80px;
+    height: 70px;
     overflow: hidden;
     padding-top: 0px;
     text-align: center;
@@ -166,7 +166,17 @@ header h1 {
     font-size: 16px;
 }
 
+
+
+
 nav {
+    z-index: 999;
+    background-color: #fefef5;
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    right: 0;
+    top: 0;
     margin: 0 auto;
     text-align: right;
 }
@@ -174,26 +184,40 @@ nav {
 nav .logo {
     margin: 0 auto;
     display: inline-block;
-    position: relative;
+    position: fixed;
 }
 
 nav ul {
+
     right: 0;
     width: 422px;
     position: absolute;
-    padding: 0 20px 20px 10px;
+    padding: 20px 20px 20px 10px;
 }
 
 nav ul li {
-    padding: 25px 0 20px 10px;
+
+    padding: 5px 0 20px 10px;
     display: inline-block;
     font-size: 11px;
     letter-spacing: 5px;
 }
 
-nav ul li a span {
-    font-size: 13px
+
+nav ul li a {
+    font-size: 11px;
+    color: #333;
 }
+
+
+nav ul li a:hover {
+    font-size: 11px;
+    color: #71d9dd;
+    transition:color 0.3s ease-out, background 0.3s ease-in;
+}
+
+
+
 
 .welcome {
     width: 100%;
@@ -359,9 +383,10 @@ nav ul li a span {
     position: relative;
     display: inline-block;
     background-color: #fefef5;
-    width: 300px;
-    margin: 10px;
+    width: 340px;
+    margin: 12px;
     text-align: center;
+
 }
 
 
@@ -387,7 +412,7 @@ nav ul li a span {
 .container_image h2 {
     font-size: 8px;
     text-align: left;
-    padding: 5px 15px 15px 15px;
+    padding: 2px 15px 18px 15px;
     background-color: white;
     color: #999;
     letter-spacing: 0px;
@@ -416,8 +441,8 @@ nav ul li a span {
 
 .rollover .bt-url{display:block;position:absolute
 ;top:20%;left:35%;width:68px;height:68px;
-    argin:-21px 0 0 -21px;
-    border:2px solid rgba(255,255,255,0.75);
+    margin:-21px 0 0 -21px;
+    border:1px solid rgba(255,255,255,0.75);
     border-radius:50%;text-indent:-23em;
     overflow:hidden}
 
@@ -468,13 +493,15 @@ nav ul li a span {
 }
 
 .container {
+
+    width: 100%;
     margin: 0 auto;
 }
 
 .container_image_02 {
     position: relative;
-    display: inline-block;
-    width: 350px;
+    float: left;
+    width: 33.3%;
     background-color: #fefef5;
     margin: 20px;
     text-align: center;
