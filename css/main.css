@@ -221,32 +221,42 @@ nav ul li a:hover {
 
 .welcome {
     width: 100%;
-    background-color: #fefef5;
+    background-color: #fdfdf8;
     margin: 0 auto;
     padding-top: 30px;
     height: 400px;
     text-align: center;
 }
 
+
+.line {
+ margin: 10 auto;
+ width: 30px;
+ height: 1px;
+ background-color: #9f9f9f;
+}
+
+
 .welcome h1 {
-    letter-spacing: 10px;
-    font-size: 0.5em;
-    color: #9fccce;
-    padding-top: 50px;
+    font-family: 'Montserrat', sans-serif; font-weight: 700;
+    letter-spacing: 0px;
+    font-size: 26px;
+    color: #666;
+    padding-top: 26px;
 
 }
 
 .welcome h2 {
-    letter-spacing: 10px;
-    font-size: 20px;
-    color: #000;
+    font-family: 'Montserrat', sans-serif; font-weight: 400;
+    letter-spacing: 0.1px;
+    font-size: 16px;
+    color: #686868;
     padding-top: 0px;
-    font-weight: 800;
 }
 
 .about {
     width: 100%;
-    background-color: #2d3035;
+    background-image: url('http://lemon2020.cafe24.com/img/back_picture.jpg');
     margin: 0 auto;
     height: 500px;
     text-align: center;
@@ -268,9 +278,35 @@ nav ul li a:hover {
 
 }
 
+.about h2 {
+    letter-spacing: 5px;
+    font-size: 0.4em;
+    color: #71d9dd;
+    padding-top: 5px;
+
+}
+
+.about h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0px;
+    font-size: 36px;
+    color: #fff;
+    padding-top: 40px;
+}
+
+
+.about.line {
+    margin: 300px auto;
+    width: 30px;
+    height: 1px;
+    background-color: #9f9f9f;
+}
+
+
 .about_sns ul li {
     display: inline-block;
-    padding: 20px 60px;
+    padding: 100px 60px;
 }
 
 
@@ -346,17 +382,23 @@ nav ul li a:hover {
 
 
 .about_contents {
-    margin: 30px auto;
+    margin: 15px auto;
+    opacity: 0.8;
     width: 560px;
-    border: 5px solid #71d9dd;
     padding: 20px;
+
+}
+
+
+.about_contents span {
     letter-spacing: 0px;
     font-size: 9px;
     line-height: 20px;
-    color: #808080;
+    color: #fff;
     padding-top: 0px;
     font-weight: 800;
 }
+
 
 .work {
     width: 100%;
