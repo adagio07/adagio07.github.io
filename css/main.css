@@ -142,7 +142,7 @@ a {
 
 body {
     background-color: #fefef5;
-    font-family: 'Montserrat', Helvetica, sans-serif;
+    font-family: 'Montserrat', Helvetica, sans-serif; 'Gotham Book', Gotham-Book, Arial, sans-serif;
     -webkit-font-smoothing: antialiased !important;
 }
 
@@ -223,6 +223,7 @@ nav ul li a:hover {
     padding-top: 140px;
     height: 650px;
     text-align: center;
+
 }
 
 
@@ -260,36 +261,35 @@ nav ul li a:hover {
 }
 
 .about h1 {
-    letter-spacing: 2px;
-    font-size: 0.8em;
-    color: #71d9dd;
-    padding-top: 20px;
+    font-family: 'Montserrat', sans-serif; font-weight: 700;
+    letter-spacing: 0px;
+    font-size: 1.4em;
+    color: #dcdcdc;
+    padding-top: 65px;
+    padding-bottom: 15px;
 
 }
+
+
+
+
 
 .about h2 {
-    letter-spacing: 5px;
-    font-size: 0.4em;
-    color: #71d9dd;
-    padding-top: 5px;
-
+    font-family: 'Montserrat', sans-serif; font-weight: 400;
+    letter-spacing: 0px;
+    font-size: 0.3em;
+    color: #adadad;
+    padding-bottom: 20px;
 }
 
-.about h2 {
-    letter-spacing: 5px;
-    font-size: 0.4em;
-    color: #71d9dd;
-    padding-top: 5px;
-
-}
 
 .about h3 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     letter-spacing: 0px;
     font-size: 40px;
-    color: #fff;
-    padding-top: 140px;
+    color: #71d9dd;
+    padding-top: 60px;
 }
 
 
@@ -314,8 +314,7 @@ nav ul li a:hover {
 .about_sns ul li {
     display: inline-block;
     text-align: center;
-
-    padding: 40px 60px;
+    padding: 60px 60px;
 }
 
 
@@ -409,6 +408,30 @@ nav ul li a:hover {
 }
 
 
+
+.about_icon {
+margin: 0 auto;
+}
+
+
+
+.about_icon ul li {
+    display: inline-block;
+    text-align: center;
+    padding: 30px 60px;
+}
+
+.about_icon p {
+    letter-spacing: 0px;
+    font-size: 13px;
+    line-height: 20px;
+    color: #fff;
+    padding-top: 0px;
+    font-weight: 800;
+}
+
+
+
 .work {
     width: 100%;
     background-color: #fefef5;
@@ -418,13 +441,23 @@ nav ul li a:hover {
 }
 
 .work h1 {
+     font-family: 'Montserrat', sans-serif; font-weight: 700;
+     letter-spacing: 0px;
+     font-size: 1.4em;
+     color: #848484;
+     padding-top: 65px;
+     padding-bottom: 15px;
+ }
 
-    letter-spacing: 10px;
-    font-size: 0.5em;
+
+.work h2 {
+    font-family: 'Montserrat', sans-serif; font-weight: 400;
+    letter-spacing: 0px;
+    font-size: 0.3em;
     color: #848484;
-    padding-top: 20px;
     padding-bottom: 20px;
 }
+
 
 .container {
     margin: 0 auto;
@@ -444,7 +477,7 @@ nav ul li a:hover {
 
 
 .container_image h1 {
-    font-size: 18px;
+    font-size: 16px;
     text-align: center;
     padding: 22px 15px 5px 15px;
     color: #474747;
@@ -475,10 +508,20 @@ nav ul li a:hover {
 }
 
 .pic h1 {
-    letter-spacing: 10px;
-    font-size: 0.5em;
+    font-family: 'Montserrat', sans-serif; font-weight: 700;
+    letter-spacing: 0px;
+    font-size: 1.4em;
     color: #848484;
-    padding-top: 20px;
+    padding-top: 65px;
+    padding-bottom: 15px;
+}
+
+
+.pic h2 {
+    font-family: 'Montserrat', sans-serif; font-weight: 400;
+    letter-spacing: 0px;
+    font-size: 0.3em;
+    color: #848484;
     padding-bottom: 20px;
 }
 
